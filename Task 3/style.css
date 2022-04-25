@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient( 90deg, rgb(255, 166, 0) 0%, rgb(255, 255, 122) 100%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    margin-top: 50px;
+    text-align: center;
+    border: 10px;
+    border-color: solid black;
+    border-collapse: collapse;
+}
+
+#show td {
+    padding: 13px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+#btna td input {
+    margin-top: 5%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    background:green;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#show th {
+    padding: 13px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+#ipt,
+h1 {
+    color:black;
+}
